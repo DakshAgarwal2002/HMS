@@ -1,0 +1,211 @@
+.register-wrapper{
+    background-color: black;
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    /* backdrop-filter: blur(10px); */
+}
+.modal-background{
+    /* background-size: cover; */
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    height: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 0.80);
+    backdrop-filter: blur(10px);
+}
+.success_modal{
+    height: 200px;
+    width: 720px;
+    /* margin: auto; */
+    /* top:calc(50% - 100px); */
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.20);
+    border-radius: 20px; border: 1px #808080 solid;
+}
+.checkmark{
+    margin-top: 35px;
+}
+.success_modal div{
+    color: #505050;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: bold;
+    word-wrap: break-word;
+    margin-top: 12px;
+    height: 32px;
+    line-height: 32px;
+}
+.register-div{
+    width:1440px;
+    background: white;
+    display: flex;
+}
+/* Left Side CSS */
+
+.register-left{
+    width: 541px;
+    height: 1024px;
+    background-image: url(../images/Rectangle\ 179.png);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register_img1{
+margin-top: 236px;
+}
+.motto{
+    position: absolute;
+width: 342px;
+height: 48px;
+text-align: center;
+left: calc(50% - 342px/2 - 449px);
+top: 675px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+.hash{
+position: absolute;
+width: 167px;
+height: 36px;
+left: calc(50% - 167px/2 - 449.5px);
+top: 753px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.register-left span{
+color: #00D347;
+}
+
+/* Right Side CSS */
+.register-right{
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    width: 899px;
+}
+.image12{
+    position: absolute;
+    left: 90px;
+    top:73px;
+}
+.signup-form-heading
+{
+text-align: center;
+height: 45px;
+margin-top: 100px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #CDCDCD;
+}
+.signup_span{
+    color: #261E3B;
+}
+.signup-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 90px 0 90px;
+}
+
+.register-div input
+{
+    /* z-index: 0; */
+    width: 320px;
+    border:0;
+border-bottom:2px solid #BCBCBC;
+margin-top: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+height: 32px;
+color: #000000;
+}
+::placeholder {
+    color: #BCBCBC;
+    opacity: 1; /* Firefox */
+  }
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #261E3B;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+.password{
+    margin-top: 32px;
+}
+.register-div input:focus{
+/* border:0px; */
+outline: none;
+border-bottom: 2px solid black;
+/* border-top: 0px; */
+
+}
+.register-div input:focus::placeholder{
+    color: #000000;
+}
+.submit_button{
+    
+    margin: auto;
+    margin-top: 54px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #261E3B;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.policy{
+    
+    text-align: center;
+    margin-top: 60px;
+    list-style: disc inside;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #BCBCBC;
+}

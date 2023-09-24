@@ -1,0 +1,149 @@
+.register-wrapper{
+    background-color: black;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    /* backdrop-filter: blur(10px); */
+}
+
+.register-div{
+    width:1440px;
+    background: white;
+    display: flex;
+}
+/* Left Side CSS */
+
+.register-left{
+    width: 541px;
+    height: 1024px;
+    background-image: url(../images/Rectangle\ 179.png);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register_img1{
+margin-top: 236px;
+}
+.motto{
+    position: absolute;
+width: 342px;
+height: 48px;
+text-align: center;
+left: calc(50% - 342px/2 - 449px);
+top: 675px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+.hash{
+position: absolute;
+width: 167px;
+height: 36px;
+left: calc(50% - 167px/2 - 449.5px);
+top: 753px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.register-left span{
+color: #00D347;
+}
+
+/* Right Side CSS */
+.register-right{
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    width: calc(100% - 541px);
+}
+.image12{
+    position: absolute;
+    left: 90px;
+    top:73px;
+}
+.signup-form-heading
+{
+text-align: center;
+height: 45px;
+margin-top: 100px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #CDCDCD;
+}
+.capture_wrapper{
+    /* position: absolute; */
+    /* left:193px; */
+    margin: auto;
+    margin-top: 130px;
+    width: 514px;
+}
+.capture_wrapper p{
+    color: #505050;
+font-size: 20px;
+font-family: Poppins;
+font-weight: 600;
+word-wrap: break-word;
+line-height: 30px;
+}
+.capture_wrapper div{
+width: 514px;
+height: 450px;
+margin-top: 30px;
+background: #C0C0C0;
+border-radius: 10px;
+border: 1px #909090 solid;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.recapture_choice{
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+    margin: auto;
+}
+.submit_button{
+    
+    margin: auto;
+    margin-top: 70px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #261E3B;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.retake_button{
+    border: none;
+    background: #A0A0A0;
+    color: #261E3B;
+}
+
+.policy{
+    
+    text-align: center;
+    margin-top: 70px;
+    list-style: disc inside;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #BCBCBC;
+}

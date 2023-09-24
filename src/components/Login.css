@@ -1,0 +1,184 @@
+.register-wrapper{
+    background-color: black;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    /* backdrop-filter: blur(10px); */
+}
+
+.register-div{
+    width:1440px;
+    background: white;
+    display: flex;
+}
+/* Left Side CSS */
+
+.register-left{
+    width: 541px;
+    height: 1024px;
+    background-image: url(../images/Rectangle\ 179.png);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register_img1{
+margin-top: 236px;
+}
+.motto{
+    position: absolute;
+width: 342px;
+height: 48px;
+text-align: center;
+left: calc(50% - 342px/2 - 449px);
+top: 675px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+.hash{
+position: absolute;
+width: 167px;
+height: 36px;
+left: calc(50% - 167px/2 - 449.5px);
+top: 753px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.register-left span{
+color: #00D347;
+}
+
+/* Right Side CSS */
+.register-right{
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    width: calc(100% - 541px);
+}
+.image12{
+    position: absolute;
+    left: 90px;
+    top:73px;
+}
+.signup-form-heading
+{
+text-align: center;
+height: 45px;
+margin-top: 100px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #CDCDCD;
+}
+#login_span{
+    color: #261E3B;
+}
+.login-form{
+    margin: auto;
+    margin-top: 100px;
+    width:514px;
+    height:540px;
+    border: 2px solid #E0E0E0;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.login-form h4{
+    color: #261E3B;
+font-size: 24px;
+font-family: Poppins;
+font-weight: bolder;
+text-align: center;
+word-wrap: break-word;
+margin: 39px 0 0 0;
+line-height: 36px;
+}
+.login-form p{
+    margin: 11px 0 31px 0;
+    color: #BCBCBC;
+font-size: 14px;
+line-height: 21px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+text-align: center;
+}
+.register-div input
+{
+    /* z-index: 0; */
+    width: 334px;
+    padding: 0;
+    border:0;
+border-bottom:2px solid #BCBCBC;
+margin: auto;
+margin: 50px 0px 0px 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+height: 31px;
+color: #000000;
+}
+.password{
+    margin-top: 50px;
+}
+::placeholder {
+    color: #BCBCBC;
+    opacity: 1; /* Firefox */
+  }
+input[type="file"] {
+    display: none;
+}
+.register-div input:focus{
+/* border:0px; */
+outline: none;
+border-bottom: 2px solid black;
+/* border-top: 0px; */
+
+}
+.register-div input:focus::placeholder{
+    color: #000000;
+}
+.submit_button{
+    
+    margin: auto;
+    margin-top: 70px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #261E3B;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.policy{
+    
+    text-align: center;
+    margin-top: 70px;
+    list-style: disc inside;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #BCBCBC;
+}
